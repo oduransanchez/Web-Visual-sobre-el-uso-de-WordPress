@@ -46,10 +46,12 @@ body {
     color: var(--text-color) !important;
     transition: var(--transition);
     margin: 0 0.5rem;
+    display: inline-block;
 }
 
 .nav-link:hover {
     color: var(--primary-color) !important;
+    transform: scale(1.1);
 }
 
 .nav-link.active {
